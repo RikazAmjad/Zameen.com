@@ -19,7 +19,7 @@ const agencies: Agency[] = [
     {
         id: "baqar",
         name: "Baqar Enterprises",
-        logoSrc: "/baqar.jpg",
+        logoSrc: "/Baqar.jpg",
         location: "Islamabad",
     },
     {

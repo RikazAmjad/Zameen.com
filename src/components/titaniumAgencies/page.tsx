@@ -6,6 +6,7 @@ import {
     ChevronLeftIcon,
     ChevronRightIcon,
 } from "@heroicons/react/24/solid";
+import Image from "next/image";
 
 interface Agency {
     id: string;
@@ -25,7 +26,7 @@ const agencies: Agency[] = [
         id: "fakhar",
         name: "Fakhar Associates",
         logoSrc: "/fakhar.jpg",
-        location: "Islamabad",
+        location: "Islamabad"
     },
     {
         id: "saRealEstate",
@@ -104,7 +105,7 @@ const TitaniumAgencies: FC = () => {
                     {/* Logo + hover border */}
                     <div className="p-4 flex justify-center">
                         <div className="w-24 h-24  border border-gray-200 rounded-lg group-hover:border-blue-500  flex items-center justify-center overflow-hidden transition-colors duration-200">
-                            <img src={agency.logoSrc} alt={agency.name} className="max-h-full max-w-full"/>
+                            <Image src={agency.logoSrc} alt={agency.name} width={50} height={30} className="max-h-full max-w-full w-full"/>
                         </div>
                     </div>
 

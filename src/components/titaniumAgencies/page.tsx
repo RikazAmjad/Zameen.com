@@ -31,37 +31,37 @@ const agencies: Agency[] = [
     {
         id: "saRealEstate",
         name: "SA Real Estate",
-        logoSrc: "/sa.jpg",
+        logoSrc: "/SA.jpg",
         location: "Islamabad",
     },
     {
         id: "afAssociates",
         name: "AF Associates",
-        logoSrc: "/af.jpg",
+        logoSrc: "/AF.jpg",
         location: "Islamabad",
     },
     {
         id: "alRehman",
         name: "Al Rehman Marketing",
-        logoSrc: "/alrehman.jpg",
+        logoSrc: "/AlRehman.jpg",
         location: "Islamabad",
     },
     {
         id: "haider",
         name: "Haider Associates & Builders",
-        logoSrc: "/haider.jpg",
+        logoSrc: "/Haider.jpg",
         location: "Islamabad",
     },
     {
         id: "atif",
         name: "Atif & Associates",
-        logoSrc: "/atif.jpg",
+        logoSrc: "/Atif.jpg",
         location: "Islamabad",
     },
     {
         id: "baigAssociates",
         name: "Baig Associates",
-        logoSrc: "/baig.jpg",
+        logoSrc: "/Baig.jpg",
         location: "Islamabad",
     },
   // …add more agencies as needed
